@@ -30,6 +30,9 @@ What is application includes :
 
 liberies added :
 
-"react-redux": "^7.2.4",
-"react-router-dom": "^5.2.0",
-"redux": "^4.1.1"
+   "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "enzyme-to-json": "^3.6.2",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.1.1"
