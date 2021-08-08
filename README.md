@@ -6,6 +6,11 @@ How to Install :
 2. After cloning run npm install .
 3. Once npm install is done . Run npm start to run the application .
 
+Run test cases :
+1. run npm test .
+2. contains a mock data file under test folder 
+3. included very basic test cases . 
+
 
 What is application includes :
 
