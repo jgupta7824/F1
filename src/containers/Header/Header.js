@@ -23,8 +23,11 @@ const Header = (props) => {
             <div className={classes.navHeading}>
                 {!championData && <label className={classes.labelStyle}>{TRANSLATIONS.F1_CHAMPIONS}</label>}
                 {championData && Object.keys(championData).length &&
-                    (<button className="back-button" onClick={onClickBack}><i className="fas fa-chevron-left"></i> 
-                    {`     ${championData.season} - ${TRANSLATIONS.FORMULA_1_CHAMPIONSHIP}`}</button>)}
+                    (<button className="back-button" onClick={onClickBack}>
+                        <i className="fas fa-chevron-left" style={{fontSize:'25px'}}></i> 
+                    <label className={classes['button-label']}>
+                        {`${championData.season} - ${TRANSLATIONS.FORMULA_1_CHAMPIONSHIP}`}</label>
+                        </button>)}
             </div>
         </header>
     )

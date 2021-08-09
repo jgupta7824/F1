@@ -35,3 +35,12 @@
     font-weight: bold;
     color: rgb(33, 33, 33);
 }
+
+.button-label{
+    padding-left: 10px;
+    text-overflow: ellipsis;
+    font-size: 1em;
+    font-weight: bold;
+    position: absolute;
+    margin: 3px 0px;
+}
